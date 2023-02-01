@@ -1,0 +1,252 @@
+/*------------------------- Estilos Generales ------------------------- */
+
+* {box-sizing: border-box;
+}
+
+/*------------------------@ Medias ----------------------- */
+
+.breakpoint-sm-up {
+  display: none;
+}
+@media (min-width: 576px) { 
+ .breakpoint-sm-up { 
+  display:block;
+  }
+}
+
+.breakpoint-md-up {
+  display: none;
+}
+@media (min-width: 768px) { 
+ .breakpoint-md-up { 
+  display:block;
+  }
+}
+
+.breakpoint-lg-up {
+  display: none;
+}
+@media (min-width: 992px) { 
+ .breakpoint-lg-up { 
+  display: block;
+  }
+}
+
+.breakpoint-xl-up {
+  display: none;
+}
+@media (min-width: 1200px) { .breakpoint-xl-up { 
+  display: block;
+}
+}
+
+.breakpoint-xxl-up {
+  display: none;
+} @media (min-width: 1400px) { .breakpoint-xxl-up { 
+  display: block; }}
+ 
+  
+  .breakpoint-xsm-down {
+    display: block;
+  }
+  @media (min-width: 576px) { 
+   .breakpoint-xsm-down { 
+    display: none;
+    }
+  }
+  
+  .breakpoint-sm-down {
+    display: block;
+  }
+  @media (min-width: 768px) { 
+   .breakpoint-sm-down { 
+    display: none;
+    }
+  }
+  
+  .breakpoint-md-down {
+    display: block;
+  }
+  @media (min-width: 992px) { 
+   .breakpoint-md-down { 
+    display: none;
+    }
+  }
+  
+  .breakpoint-lg-down {
+    display: block;
+  }
+  @media (min-width: 1200px) { .breakpoint-lg-down { 
+    display: none;
+  }
+  }
+  
+  .breakpoint-xl-down {
+    display: block;
+  } @media (min-width: 1400px) { .breakpoint-xl-down { 
+    display: none; }}
+
+/* -----------------Textos ------------------------- */
+
+.txt-top-left { justify-content: top; text-align: left }
+.txt-top-center { justify-content: top; text-align: center }
+.txt-top-right { justify-content: top; text-align: right }
+.txt-middle-left { justify-content: middle; text-align: left }
+.txt-middle-center { justify-content: middle; text-align: center  }
+.txt-middle-right {justify-content: middle; text-align: right }
+.txt-bottom-left {justify-content: bottom; text-align: left }
+.txt-bottom-center {justify-content: bottom; text-align: center }
+.txt-bottom-right {justify-content: bottom; text-align: right}
+
+/* ----------------------------Bloques ------------------------- */
+
+.block-top-left { display: flex; justify-content: top; align-items: start }
+.block-top-center { display: flex; justify-content: top; align-items: center }
+.block-top-right { display: flex; justify-content: top; align-items: end  }
+.block-middle-left { display: flex; justify-content: center; align-items: start }
+.block-middle-center { display: flex; justify-content: center; align-items: center;  }
+.block-middle-right {display: flex; justify-content: center; align-items: end }
+.block-bottom-left {display: flex; justify-content: bottom; align-items: start }
+.block-bottom-center {display: flex; justify-content: bottom; align-items: center }
+.block-bottom-right { display: flex; justify-content: bottom; align-items: end}
+
+
+/* ----------------------------Alturas relativas a vh ------------------------- */
+
+.row-10 {
+  height: 10vh;}      
+.row-20 {
+  height: 20vh;     
+  }
+.row-30 {
+  height: 30vh;     
+  }
+.row-40 {
+  height: 40vh;     
+  }
+.row-50 {
+  height: 50vh;     
+  }
+.row-60 {
+ height: 60vh;     
+  }
+.row-70 {
+  height: 70vh;     
+  }
+.row-80 {
+  height: 80vh;     
+  }
+.row-90 {
+  height: 90vh;     
+  }
+.row-100 {
+  height: 100vh;     
+  }
+  .row-5 {
+    height: 5vh;}      
+  .row-15 {
+    height: 15vh;     
+    }
+  .row-25 {
+    height: 25vh;     
+    }
+  .row-35 {
+    height: 35vh;     
+    }
+  .row-45 {
+    height: 45vh;     
+    }
+  .row-55 {
+   height: 55vh;     
+    }
+  .row-65 {
+    height: 65vh;     
+    }
+  .row-75 {
+    height: 75vh;     
+    }
+  .row-85 {
+    height: 85vh;     
+    }
+  .row-95 {
+    height: 95vh;     
+    }
+  .row-100 {
+    height: 100vh;     
+    }
+  .min-row-100 {
+     min-height: 100vh;     
+     }
+
+
+/* ----------------------------Otros ------------------------- */
+.text-decoration-none {
+  text-decoration: none;
+}
+
+.text-overflow {
+  overflow-wrap: break-word;
+}
+
+
+.body-size { 
+box-sizing: border-box;
+min-height: 90vh;
+margin: 5vh; 
+}
+
+.no-padding {
+  padding:0;
+  border: 0
+}
+
+.float-center {
+  display:flex;
+  align-items: center;
+justify-content: center;
+}
+
+/*------------------------- Inicio ------------------------- */
+
+.imagen-centrada{
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+
+.imagen-circular {  
+height: 40vh;    
+border: 2px;
+border-style: solid;
+border-color: #f8f9fa;
+border-radius: 50%; 
+}  
+
+
+/* --------------- Sobre Mi ------------------------- */
+
+.imagen-acordion {
+  height: 40vh;    
+  width: 40vh;
+  border: 2px;
+  border-style: solid;
+  border-color: #f8f9fa;
+  border-radius: 50%; 
+}
+ 
+
+/*------------------------ Contactame ----------------------- */
+
+.img-4-1 {  
+  height: 30vh;    
+  border: 2px;
+  border-style: solid;
+  border-color: #f8f9fa;
+  border-radius: 50%; 
+}  
+.img-logo {
+height: fit-content;
+max-height: 15vw;
+max-width: 10 vw;
+}
